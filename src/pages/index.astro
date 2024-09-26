@@ -1,9 +1,24 @@
 ---
 // self
-import Hello from "!solid/hello.tsx"
 import Layout from "!layouts/layout.astro"
 import { title } from "!root/consts.js"
 ---
 <Layout title={title}>
-	<Hello name="Bob" />
+	<div class="hero min-h-screen">
+		<!--  style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);" -->
+		<div class="hero-overlay bg-opacity-60"></div>
+		<div class="hero-content text-neutral-content">
+			<div class="max-w-md">
+				<h1 class="mb-1 text-5xl font-bold">Mon Métier</h1>
+				<h2 class="text-5xl font-bold">Ma Région</h2>
+				<h3 class="my-5 text-xl font-bold">Revitalise les villages par les métiers</h3>
+				<p class="mb-5">
+					<a class="hover:link" href="mailto:robin@monmetiermaregion.ca">✉ robin@monmetiermaregion.ca</a><br>
+					<a class="hover:link" href="tel:4189777760">✆ 418-977-7760</a><br>
+					Copyright © Robin Millette
+				</p>
+				<p><a class="link italic" href="https://mpme.waglo.com">(voir la version antérieure)</a></p>
+			</div>
+		</div>
+	</div>
 </Layout>

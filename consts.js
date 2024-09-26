@@ -1,3 +1,2 @@
-export const title = "Astro"
-export const lightTheme = "light"
-export const darkTheme = "dark"
+export const title = "Mon métier, ma région"
+export const lightTheme = "forest" // lemonade garden
