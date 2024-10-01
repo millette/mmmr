@@ -1,6 +1,7 @@
 ---
 // self
 import Breakpoints from "!components/breakpoints.astro"
+import OP from "!components/openpanel.astro"
 ---
 <html lang="fr" class="overflow-y-scroll">
 	<head>
@@ -8,11 +9,12 @@ import Breakpoints from "!components/breakpoints.astro"
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="Add content for SEO purposes." />
+		<meta name="description" content="Revitaliser les villages par les métiers." />
 		<title>{Astro.props.title}</title>
 	</head>
 	<body>
 		<Breakpoints />
-		<slot >
+		<slot />
+		<OP />
 	</body>
 </html>
