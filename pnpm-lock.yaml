@@ -15,8 +15,8 @@ importers:
         specifier: ^4.4.4
         version: 4.4.4(@types/node@22.7.4)(solid-js@1.9.1)
       '@astrojs/tailwind':
-        specifier: ^5.1.1
-        version: 5.1.1(astro@4.15.9(@types/node@22.7.4)(rollup@4.27.4)(typescript@5.6.2))(tailwindcss@3.4.13)
+        specifier: ^5.1.2
+        version: 5.1.2(astro@4.15.9(@types/node@22.7.4)(rollup@4.27.4)(typescript@5.6.2))(tailwindcss@3.4.13)
       astro:
         specifier: ^4.15.9
         version: 4.15.9(@types/node@22.7.4)(rollup@4.27.4)(typescript@5.6.2)
@@ -94,8 +94,8 @@ packages:
       solid-devtools:
         optional: true
 
-  '@astrojs/tailwind@5.1.1':
-    resolution: {integrity: sha512-LwurA10uIKcGRxQP2R81RvAnBT0WPKzBntXZBF4hrAefDgM5Uumn0nsGr6tdIjSARgYz4X+Cq/Vh78t3bql3yw==}
+  '@astrojs/tailwind@5.1.2':
+    resolution: {integrity: sha512-IvOF0W/dtHElcXvhrPR35nHmhyV3cfz1EzPitMGtU7sYy9Hci3BNK1To6FWmVuuNKPxza1IgCGetSynJZL7fOg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0 || ^5.0.0-beta.0
       tailwindcss: ^3.0.24
@@ -2563,12 +2563,12 @@ snapshots:
       - supports-color
       - terser
 
-  '@astrojs/tailwind@5.1.1(astro@4.15.9(@types/node@22.7.4)(rollup@4.27.4)(typescript@5.6.2))(tailwindcss@3.4.13)':
+  '@astrojs/tailwind@5.1.2(astro@4.15.9(@types/node@22.7.4)(rollup@4.27.4)(typescript@5.6.2))(tailwindcss@3.4.13)':
     dependencies:
       astro: 4.15.9(@types/node@22.7.4)(rollup@4.27.4)(typescript@5.6.2)
-      autoprefixer: 10.4.20(postcss@8.4.47)
-      postcss: 8.4.47
-      postcss-load-config: 4.0.2(postcss@8.4.47)
+      autoprefixer: 10.4.20(postcss@8.4.49)
+      postcss: 8.4.49
+      postcss-load-config: 4.0.2(postcss@8.4.49)
       tailwindcss: 3.4.13
     transitivePeerDependencies:
       - ts-node
@@ -3425,14 +3425,14 @@ snapshots:
       - terser
       - typescript
 
-  autoprefixer@10.4.20(postcss@8.4.47):
+  autoprefixer@10.4.20(postcss@8.4.49):
     dependencies:
-      browserslist: 4.24.0
-      caniuse-lite: 1.0.30001664
+      browserslist: 4.24.2
+      caniuse-lite: 1.0.30001684
       fraction.js: 4.3.7
       normalize-range: 0.1.2
-      picocolors: 1.1.0
-      postcss: 8.4.47
+      picocolors: 1.1.1
+      postcss: 8.4.49
       postcss-value-parser: 4.2.0
 
   axobject-query@4.1.0: {}
@@ -4494,6 +4494,13 @@ snapshots:
       yaml: 2.5.1
     optionalDependencies:
       postcss: 8.4.47
+
+  postcss-load-config@4.0.2(postcss@8.4.49):
+    dependencies:
+      lilconfig: 3.1.2
+      yaml: 2.5.1
+    optionalDependencies:
+      postcss: 8.4.49
 
   postcss-nested@6.2.0(postcss@8.4.47):
     dependencies:
